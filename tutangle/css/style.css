@@ -1,0 +1,361 @@
+h1{
+    font-size: 22px;
+}
+
+h2, h2 a{
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+@media (max-width: 375px){
+    h1{
+        font-size: 16px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    h2, h2 a{
+        font-size: 11px;
+        line-height: 12px;
+    }
+}
+
+.search .searchbar form input{
+    padding-left:3%;
+    padding-right: 6%;
+    border:0;
+    width: 83%;
+    background-color: #ceeff6;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.button-container button{
+    line-height: 20px;
+	color: white;
+	font-size: 0.6875em;
+	background: none;
+	border:0;
+	padding-right: 2%;
+	padding-bottom:6%;
+    width: 98%;
+}
+
+.headerright .top span{
+    float:right;
+    font-size: 18px;
+}
+
+.headerright .bottom ul{
+    float: right;
+}
+
+.headerright .bottom ul li{
+    border-right: 1px solid black;
+    padding-right: 5px;
+    padding-left:5px;
+    float:left;
+    list-style: none;
+    font-size:12px;
+}
+
+.headerright .bottom ul li:last-child{
+    border-right: 0px;
+    padding-right: 0px;
+}
+
+.headerright .bottom ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerright .bottom ul li a:hover{
+    color: gray;
+}
+
+.navbar ul{
+    float: left;
+    height: 40px;
+    margin-left: -5px;
+}
+
+.navbar ul li{
+    line-height: 40px;
+    list-style:none;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar ul li:hover{
+    background-color: black;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+    display: block;
+}
+
+.notificationbar ul{
+    float:left;
+    height: 40px;
+    margin-right: -20px;
+}
+
+.notificationbar ul li{
+    line-height: 40px;
+    list-style: none;
+    float:left;
+    font-size: 12px;
+}
+
+.notificationbar ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:  #a9a9a9;
+    display: block;
+    margin:0px;
+}
+
+.notificationbar ul li a:hover{
+    background-color: white;
+}
+
+.active span{
+    color: black;
+}
+
+@media (max-width: 375px){
+    .navbar ul{
+        float:left;
+        height: auto;
+        margin-left: 0px;
+    }
+    .navbar ul li{
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .notificationbar ul{
+        float:right;
+        height:auto;
+        margin:0px;
+    }
+    .notificationbar ul li{
+        line-height: 40px;
+        font-size: 10px;
+    }
+    .notificationbar ul li a{
+        padding: 0 10px;
+    }
+    .notificationbar ul li a:hover{
+        background-color: #7dd9e8;
+    }
+    .dontshow{
+        display: none;
+    }
+}
+
+.box .header strong{
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.box .boxbody ul{
+    float: left;
+    background-color: none;
+    text-decoration: none;
+}
+
+.box .boxbody ul li{
+    width: 100%;
+    float: left;
+    line-height: 15px;
+    list-style: none;
+    font-size: 12px;
+    background-color: #f5f5f5;
+}
+
+.box .boxbody ul li a{
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color:black;
+    display: block;
+    float: left;
+}
+
+.box .boxbody ul li a:hover{
+    background-color: white;
+}
+
+.box .boxbody ul li a span{
+    width:85%;
+    display: block;
+    float: left;
+}
+
+.menus .top ul{
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.menus .top ul li{
+    list-style: none;
+    color: black;
+    float: left;
+    width:48%;
+    text-align: center;
+    border-left: 5px;
+    border-left-color: white;
+}
+
+.menus .middle .tabgroup ul li{
+    width:46%;
+    text-align: center;
+    list-style: none;
+    line-height: 28px;
+    font-size: 12px;
+    color:black;
+    float: left;
+    border-left: 2%;
+}
+
+.menus .middle .tabgroup ul li a{
+    color: white;
+    text-decoration: none;
+    display: block
+}
+
+.menus .middle .tabgroup ul li a:hover{
+    background-color: white;
+}
+
+
+.menus .middle .tabgroup .tab a{
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 12px;
+    display: block;
+    color: black;
+}
+
+.tabselected{
+    background-color: #2fc1da;
+}
+
+.tabselected span{
+    color:white;
+}
+
+.menus .middle .tabgroup .tab a:hover{
+    background-color: #2fc1da;
+    color:white;
+}
+
+.menus .content .individual .description p{
+    font-size: 10px;
+    color: #616161;
+    line-height: 16px;
+}
+
+.menus .content .individual .description p span{
+    font-weight: bold;
+}
+
+.menus .content .individual .description span{
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+@media (max-width: 375px){
+    /* .menus .top ul li{
+        border-right: 10px solid white;
+    }
+    .menus .top ul li:last-child{
+        border:0px;
+    } */
+    .menus .middle .tabgroup .tab a{
+        font-size: 9px;
+    }
+    /* .menus .middle .tabgroup .tab:last-child{
+        border-right: 10px solid white;
+    } */
+    .menus .content .individual{
+        margin-left: 2%;
+    }
+    .menus .content .individual .description{
+        width: 75%;
+    }
+    .menus .content .individual .description p{
+        font-size: 9px;
+    }
+    .menus .content .individual .description p span{
+        font-size: 9px;
+    }
+}
+
+.blueify{
+    color:#2fc1da;
+}
+
+.greenify{
+    color: #5e830d;
+}
+
+.redify{
+    color:red;
+}
+
+
+.footer .inside .left ul li{
+    font-size: 10px;
+    color: white;
+    line-height: 25px;
+    float: left;
+    padding-right: 15px;
+}
+
+.footer .inside .left ul li:first-child{
+    list-style: none;
+}
+
+.footer .inside .left ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer .inside .left ul li a:hover{
+    color: black;
+}
+
+.footer .inside .right span{
+    font-size: 10px;
+    color:white;
+    line-height: 25px;
+    float:right;
+}
+
+@media (max-width: 375px){
+    .footer .inside .left ul li{
+        list-style: none;
+    }
+    .footer .inside .left ul li:nth-child(even){
+        float:right;
+    }
+    .footer .inside .right span{
+        float:right;
+    }
+}
